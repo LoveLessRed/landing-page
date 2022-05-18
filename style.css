@@ -42,6 +42,27 @@ body {
     justify-content: space-around;
 }
 
+.quote {
+    display: block;
+    margin: 100px 20px;
+    padding: 100px 200px;
+    width: 600px;
+    background-color: navy;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.written-by {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 
 
 
@@ -61,4 +82,9 @@ img {
 button {
     background-color: black;
     color: white;
+}
+
+.footnote {
+    justify-self: center;
+    margin: 10px;
 }
